@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading List - Daksh Pandey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><a href="index.html" style="border-bottom: none;">Daksh Pandey</a></h1>
+    <p><a href="index.html">&larr; Back to home</a></p>
+
+    <h2>Reading List & Resources</h2>
+    <p>A curated list of textbooks, papers, and lecture notes that I find valuable. Roughly ordered by accessibility within each section.</p>
+
+    <hr>
+
+    <h3>Lattice-Based Cryptography</h3>
+
+    <h4>Introductory</h4>
+    <ul>
+        <li><strong>Oded Regev</strong> — <em>Lattices in Computer Science (Lecture Notes)</em> — The standard starting point for lattices and LWE. Clear and well-paced.</li>
+        <li><strong>Daniele Micciancio & Oded Regev</strong> — <em>Lattice-based Cryptography</em> (Post-Quantum Cryptography, 2009) — Good survey chapter covering the basics of lattice problems and their cryptographic applications.</li>
+        <li><strong>Chris Peikert</strong> — <em>A Decade of Lattice Cryptography</em> (2016) — Excellent survey that covers the landscape up to ~2015. Dense but rewarding.</li>
+    </ul>
+
+    <h4>Advanced</h4>
+    <ul>
+        <li><strong>Daniele Micciancio & Shafi Goldwasser</strong> — <em>Complexity of Lattice Problems: A Cryptographic Perspective</em> — The definitive reference for hardness results and reductions.</li>
+        <li><strong>Chris Peikert</strong> — <em>An Efficient and Parallel Gaussian Sampler for Lattices</em> (CRYPTO 2010) — Essential reading for understanding Gaussian sampling in lattice schemes.</li>
+    </ul>
+
+    <h3>Fully Homomorphic Encryption</h3>
+
+    <h4>Introductory</h4>
+    <ul>
+        <li><strong>Craig Gentry</strong> — <em>A Fully Homomorphic Encryption Scheme</em> (PhD Thesis, 2009) — The original. Chapter 1 alone is worth reading for the intuition.</li>
+        <li><strong>Zvika Brakerski, Craig Gentry & Vinod Vaikuntanathan</strong> — <em>(Leveled) Fully Homomorphic Encryption without Bootstrapping</em> (BGV, 2012) — Introduced modulus switching. Foundational for understanding modern FHE.</li>
+        <li><strong>Junfeng Fan & Frederik Vercauteren</strong> — <em>Somewhat Practical Fully Homomorphic Encryption</em> (BFV, 2012) — The scheme behind my BFV library. Practical and well-written.</li>
+    </ul>
+
+    <h4>CKKS & Approximate HE</h4>
+    <ul>
+        <li><strong>Cheon, Kim, Kim & Song</strong> — <em>Homomorphic Encryption for Arithmetic of Approximate Numbers</em> (CKKS, 2017) — The CKKS paper. Key to understanding HE for machine learning applications.</li>
+        <li><strong>Cheon et al.</strong> — <em>A Full RNS Variant of Approximate Homomorphic Encryption</em> (2018) — The RNS optimization that makes CKKS practical.</li>
+    </ul>
+
+    <h4>Advanced / Implementation</h4>
+    <ul>
+        <li><strong>Halevi & Shoup</strong> — <em>Algorithms in HElib</em> (2014) — If you want to understand how FHE is actually implemented efficiently.</li>
+        <li><strong>Craig Gentry & Shai Halevi</strong> — <em>Implementing Gentry's Fully-Homomorphic Encryption Scheme</em> (2011) — The first real implementation paper. Shows the gap between theory and practice.</li>
+    </ul>
+
+    <h3>Cryptanalysis</h3>
+    <ul>
+        <li><strong>Daksh Pandey</strong> — <em>Cryptanalysis of Lattice-Based Cryptography</em> (Work in Progress) — My own book. <a href="https://da1729.github.io/book/">Available here</a>.</li>
+        <li><strong>Phong Nguyen & Brigitte Vall&eacute;e</strong> — <em>The LLL Algorithm: Survey and Applications</em> — Comprehensive treatment of LLL and its role in cryptanalysis.</li>
+        <li><strong>Martin Albrecht et al.</strong> — <em>On the concrete hardness of Learning with Errors</em> (2015) — Essential for understanding practical security estimates of LWE-based schemes.</li>
+    </ul>
+
+    <h3>Type Theory</h3>
+
+    <h4>Introductory</h4>
+    <ul>
+        <li><strong>Benjamin Pierce</strong> — <em>Types and Programming Languages</em> (TAPL) — The standard intro. Covers simple types through System F with great exercises.</li>
+        <li><strong>Morten Heine S&oslash;rensen & Pawel Urzyczyn</strong> — <em>Lectures on the Curry-Howard Isomorphism</em> — Bridges logic and type theory. A great companion to TAPL.</li>
+    </ul>
+
+    <h4>Homotopy Type Theory & Dependent Types</h4>
+    <ul>
+        <li><strong>The Univalent Foundations Program</strong> — <em>Homotopy Type Theory: Univalent Foundations of Mathematics</em> (The HoTT Book) — Free and collaborative. Challenging but foundational.</li>
+        <li><strong>Per Martin-L&ouml;f</strong> — <em>Intuitionistic Type Theory</em> (Bibliopolis Notes, 1984) — The source. Read this after you have some background.</li>
+    </ul>
+
+    <h3>Category Theory</h3>
+    <ul>
+        <li><strong>Saunders Mac Lane</strong> — <em>Categories for the Working Mathematician</em> — The classic. Best read with some algebraic background.</li>
+        <li><strong>Emily Riehl</strong> — <em>Category Theory in Context</em> — More modern and arguably more accessible than Mac Lane. Free PDF available from the author.</li>
+        <li><strong>Steve Awodey</strong> — <em>Category Theory</em> — Good middle ground between introductory and advanced. Pairs well with type theory study.</li>
+    </ul>
+
+    <h3>Abstract Algebra & Number Theory</h3>
+    <ul>
+        <li><strong>Dummit & Foote</strong> — <em>Abstract Algebra</em> — The standard reference. Comprehensive and well-organized.</li>
+        <li><strong>Artin</strong> — <em>Algebra</em> — More geometric intuition than Dummit & Foote. Great for a second perspective.</li>
+        <li><strong>Ireland & Rosen</strong> — <em>A Classical Introduction to Modern Number Theory</em> — Bridges classical and algebraic number theory. Relevant for understanding the Legendre symbol and related constructions.</li>
+        <li><strong>Koblitz</strong> — <em>A Course in Number Theory and Cryptography</em> — Directly connects number theory to cryptographic applications.</li>
+    </ul>
+
+    <hr>
+
+    <p><small>This list reflects my personal recommendations as of 2026. It is not exhaustive — just what I've found most useful.</small></p>
+
+    <p><small>&copy; 2026 Daksh Pandey</small></p>
+</body>
+</html>
