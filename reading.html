@@ -15,80 +15,25 @@
 
     <hr>
 
-    <h3>Lattice-Based Cryptography</h3>
-
-    <h4>Introductory</h4>
-    <ul>
-        <li><strong>Oded Regev</strong> — <em>Lattices in Computer Science (Lecture Notes)</em> — The standard starting point for lattices and LWE. Clear and well-paced.</li>
-        <li><strong>Daniele Micciancio & Oded Regev</strong> — <em>Lattice-based Cryptography</em> (Post-Quantum Cryptography, 2009) — Good survey chapter covering the basics of lattice problems and their cryptographic applications.</li>
-        <li><strong>Chris Peikert</strong> — <em>A Decade of Lattice Cryptography</em> (2016) — Excellent survey that covers the landscape up to ~2015. Dense but rewarding.</li>
-    </ul>
-
-    <h4>Advanced</h4>
-    <ul>
-        <li><strong>Daniele Micciancio & Shafi Goldwasser</strong> — <em>Complexity of Lattice Problems: A Cryptographic Perspective</em> — The definitive reference for hardness results and reductions.</li>
-        <li><strong>Chris Peikert</strong> — <em>An Efficient and Parallel Gaussian Sampler for Lattices</em> (CRYPTO 2010) — Essential reading for understanding Gaussian sampling in lattice schemes.</li>
-    </ul>
-
-    <h3>Fully Homomorphic Encryption</h3>
-
-    <h4>Introductory</h4>
-    <ul>
-        <li><strong>Craig Gentry</strong> — <em>A Fully Homomorphic Encryption Scheme</em> (PhD Thesis, 2009) — The original. Chapter 1 alone is worth reading for the intuition.</li>
-        <li><strong>Zvika Brakerski, Craig Gentry & Vinod Vaikuntanathan</strong> — <em>(Leveled) Fully Homomorphic Encryption without Bootstrapping</em> (BGV, 2012) — Introduced modulus switching. Foundational for understanding modern FHE.</li>
-        <li><strong>Junfeng Fan & Frederik Vercauteren</strong> — <em>Somewhat Practical Fully Homomorphic Encryption</em> (BFV, 2012) — The scheme behind my BFV library. Practical and well-written.</li>
-    </ul>
-
-    <h4>CKKS & Approximate HE</h4>
-    <ul>
-        <li><strong>Cheon, Kim, Kim & Song</strong> — <em>Homomorphic Encryption for Arithmetic of Approximate Numbers</em> (CKKS, 2017) — The CKKS paper. Key to understanding HE for machine learning applications.</li>
-        <li><strong>Cheon et al.</strong> — <em>A Full RNS Variant of Approximate Homomorphic Encryption</em> (2018) — The RNS optimization that makes CKKS practical.</li>
-    </ul>
-
-    <h4>Advanced / Implementation</h4>
-    <ul>
-        <li><strong>Halevi & Shoup</strong> — <em>Algorithms in HElib</em> (2014) — If you want to understand how FHE is actually implemented efficiently.</li>
-        <li><strong>Craig Gentry & Shai Halevi</strong> — <em>Implementing Gentry's Fully-Homomorphic Encryption Scheme</em> (2011) — The first real implementation paper. Shows the gap between theory and practice.</li>
-    </ul>
-
-    <h3>Cryptanalysis</h3>
-    <ul>
-        <li><strong>Daksh Pandey</strong> — <em>Cryptanalysis of Lattice-Based Cryptography</em> (Work in Progress) — My own book. <a href="https://da1729.github.io/book/">Available here</a>.</li>
-        <li><strong>Phong Nguyen & Brigitte Vall&eacute;e</strong> — <em>The LLL Algorithm: Survey and Applications</em> — Comprehensive treatment of LLL and its role in cryptanalysis.</li>
-        <li><strong>Martin Albrecht et al.</strong> — <em>On the concrete hardness of Learning with Errors</em> (2015) — Essential for understanding practical security estimates of LWE-based schemes.</li>
-    </ul>
-
-    <h3>Type Theory</h3>
-
-    <h4>Introductory</h4>
-    <ul>
-        <li><strong>Benjamin Pierce</strong> — <em>Types and Programming Languages</em> (TAPL) — The standard intro. Covers simple types through System F with great exercises.</li>
-        <li><strong>Morten Heine S&oslash;rensen & Pawel Urzyczyn</strong> — <em>Lectures on the Curry-Howard Isomorphism</em> — Bridges logic and type theory. A great companion to TAPL.</li>
-    </ul>
-
-    <h4>Homotopy Type Theory & Dependent Types</h4>
-    <ul>
-        <li><strong>The Univalent Foundations Program</strong> — <em>Homotopy Type Theory: Univalent Foundations of Mathematics</em> (The HoTT Book) — Free and collaborative. Challenging but foundational.</li>
-        <li><strong>Per Martin-L&ouml;f</strong> — <em>Intuitionistic Type Theory</em> (Bibliopolis Notes, 1984) — The source. Read this after you have some background.</li>
-    </ul>
-
-    <h3>Category Theory</h3>
-    <ul>
-        <li><strong>Saunders Mac Lane</strong> — <em>Categories for the Working Mathematician</em> — The classic. Best read with some algebraic background.</li>
-        <li><strong>Emily Riehl</strong> — <em>Category Theory in Context</em> — More modern and arguably more accessible than Mac Lane. Free PDF available from the author.</li>
-        <li><strong>Steve Awodey</strong> — <em>Category Theory</em> — Good middle ground between introductory and advanced. Pairs well with type theory study.</li>
-    </ul>
 
     <h3>Abstract Algebra & Number Theory</h3>
     <ul>
-        <li><strong>Dummit & Foote</strong> — <em>Abstract Algebra</em> — The standard reference. Comprehensive and well-organized.</li>
-        <li><strong>Artin</strong> — <em>Algebra</em> — More geometric intuition than Dummit & Foote. Great for a second perspective.</li>
-        <li><strong>Ireland & Rosen</strong> — <em>A Classical Introduction to Modern Number Theory</em> — Bridges classical and algebraic number theory. Relevant for understanding the Legendre symbol and related constructions.</li>
-        <li><strong>Koblitz</strong> — <em>A Course in Number Theory and Cryptography</em> — Directly connects number theory to cryptographic applications.</li>
+        <li><strong>Paolo Aluffi</strong> — <em>Algebra: Chapter 0</em> OMG this book... absolutely love reading it. My first read of Abstract Algebra. It's generally not recommended starting algebra with it, but this was the only book out of 100s of "classic" texts out there, that really clicked with me. I absolutely love sitting down and being patient with it.</li>
+	<li><strong>Tom M. Apostol</strong> - <em> Introduction to Analytic Number Theory </em> working with this book felt quite rewarding. It has the perfect balance between elaborate explanation and conciseness throughout the text. The text flows effortlessly. I would 100% recommend solving all the exercise problems.
     </ul>
 
-    <hr>
+    <h3>Graph Theory</h3>
+    <ul>
+	    <li><strong>Reinhard Diestel</strong> - <em>Graph Theory </em> my first graph theory read. It was really challenging, but it really catered my "rigorous-intuition" based approach to mathematics.</li>
+	    <li><strong>DB West</strong> - <em> Introduction to Graph Theory </em> great book to start learning the subject. It's more or less written like a standard introductory text, with all the definitions and axioms just written out there without discussions on "why we need them," which is fine and generally recommended for a beginner's text. I mostly studied it because my professor was directly following this book. I really liked studying Planar Graphs and Ramsey Theory from this book tho, amazing.</li>
+ 	</ul>
+ 
 
+    <h3> Real Analysis</h3>
+    <ul>
+	    <li><strong>Stephen Abbott</strong> - <em> Understanding Analysis </em> the best book I have ever read. Approaches the subject exactly like how I try to study mathematics in general. Read every word of it and solve all the exercises, really helps with proof writing skills. And yes, read the epilogues as well :) </li>
+    </ul>
+    <hr>
     <p><small>This list reflects my personal recommendations as of 2026. It is not exhaustive — just what I've found most useful.</small></p>
 
     <p><small>&copy; 2026 Daksh Pandey</small></p>
