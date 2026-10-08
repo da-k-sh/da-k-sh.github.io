@@ -32,11 +32,26 @@ h3 {
 
 h4 {
     color: #b86535;
-    font-size: 1.3em;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    font-size: 1.05em;
+    margin-top: 1.2em;
+    margin-bottom: 0.3em;
 }
 
+h4 + p {
+    margin-top: 0.3em;
+}
+
+h3.minor {
+    color: #8b6540;
+    font-size: 1.1em;
+    margin-top: 2.2em;
+    padding-top: 1em;
+    border-top: 1px solid #f4e5dc;
+}
+
+h2[id] {
+    scroll-margin-top: 0.5em;
+}
 
 a {
     color: #d97745;
@@ -55,14 +70,24 @@ hr {
     margin: 2em 0;
 }
 
-.skills {
+.note {
     background: #faf6f2;
     padding: 8px 12px;
     margin: 0.5em 0 1.5em 0;
     border-left: 3px solid #f4e5dc;
 }
 
-.skills small {
+div.note {
+    margin-top: 1.2em;
+    color: #5a4a3a;
+    font-size: 0.95em;
+}
+
+div.note p {
+    margin: 0.5em 0;
+}
+
+.note small {
     color: #8b6540;
 }
 
@@ -76,6 +101,45 @@ em {
 
 small {
     color: #666;
+}
+
+.epigraph {
+    margin: 1.2em 0 1.5em 0;
+    padding: 4px 14px;
+    border-left: 3px solid #f4e5dc;
+}
+
+.epigraph blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #7a5530;
+}
+
+.epigraph blockquote p {
+    margin: 0;
+}
+
+.epigraph figcaption {
+    margin-top: 0.2em;
+    font-size: 0.85em;
+    color: #666;
+}
+
+.epigraph figcaption::before {
+    content: "— ";
+}
+
+.exploratory {
+    color: #666;
+}
+
+.exploratory strong {
+    color: #8b6540;
+}
+
+a:focus-visible {
+    outline: 2px solid #d97745;
+    outline-offset: 2px;
 }
 
 ul {
